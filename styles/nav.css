@@ -1,0 +1,100 @@
+/* Common Nav styles */
+.navbar {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* Flexbox Container v */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar > .left-column > .icon {
+    margin-right: 15px;
+}
+
+.navbar > .left-column > .icon i {
+    font-size: 2em;
+}
+
+.left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.contact-hours-wrapper > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+}
+
+.banner-image img {
+width: 216px;
+height: 100%;
+}
+
+.banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-wrapper a {
+    font-family: "Ubuntu Condensed", sans-serif  ;
+    color: cbcbcb;
+    text-decoration: none;
+    transition: 0.05s;
+}
+
+.link-wrapper a:hover {
+    color: #cea135  ;
+    letter-spacing: 2px;
+}
+
+.right-column {
+    font-family: "Ubuntu Condensed";
+    text-align: center;
+    color: white;
+    display: flex;
+    columns: 2;
+}
+
+.right-column a{
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.2s;
+}
+
+.contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.right-column a:hover {
+color: #cea135;
+font-size: 1em;
+}
+
+:-webkit-any(:link) {
+    color: inherit;
+}
