@@ -1,0 +1,36 @@
+.bottom-heading {
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 100px;
+    grid-gap: 35px;
+}
+
+.bottom-heading > .contact-hours {
+    display: flex;
+    justify-content: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.bottom-heading > .contact-hours > .phone {
+    padding-right: 2em;
+}
+
+.bottom-heading > .contact-hours > .store-hours {
+    color: #cea135;
+}
+
+.socials-wrapper {
+    font-size: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+}
