@@ -2,7 +2,7 @@
 .navbar {
     height: 190px;
     background-color: #11122b;
-    color: #cbcbcb;
+    color: #c2bfbf;
     /* Flexbox Container v */
     display: flex;
     justify-content: space-between;
@@ -61,7 +61,7 @@ height: 100%;
 }
 .link-wrapper a {
     font-family: "Ubuntu Condensed", sans-serif  ;
-    color: cbcbcb;
+    color: #cbcbcb;
     text-decoration: none;
     transition: 0.05s;
 }
