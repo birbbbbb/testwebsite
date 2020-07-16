@@ -12,3 +12,58 @@ h1, h2, h3, h4, h5 {
 a   {
     color: #cbcbcb;
 }
+
+.nav-heading > .header  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+
+.squares-wrapper    {
+    display: flex;
+    justify-content: center;
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+
+.squares > .square > .img-wrapper img    {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.square > .square-text  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.square-text h1  {
+    color: #cea135;
+}
+
+/* Spacers */
+
+.spacer60  {
+    height: 60px;
+    width: 100%;
+}
