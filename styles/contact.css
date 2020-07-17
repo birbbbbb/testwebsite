@@ -1,0 +1,43 @@
+.contact-container  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container > .info {
+    font-family: "Ubuntu Condensed";
+    width: 10%;
+    height: 300px;
+}
+
+.text  {
+    text-align: right;
+    padding-bottom: .75em;
+}
+
+.icon   {
+    color: #cea135;
+}
+
+.contact-container > .form {
+    width: 50%;
+}
+
+.contact-container > .info > img {
+    width: 100%;
+}
+
+.address    {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone    {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hours    {
+    display: flex;
+    justify-content: space-between;
+}
