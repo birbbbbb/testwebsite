@@ -6,8 +6,10 @@
 
 .contact-container > .info {
     font-family: "Ubuntu Condensed";
-    width: 10%;
-    height: 300px;
+    width: 200px;
+    height: 500px;
+    padding-right: 50px;
+    font-size: 1.25em;
 }
 
 .text  {

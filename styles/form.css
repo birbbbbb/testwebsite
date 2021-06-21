@@ -1,0 +1,61 @@
+.form > .form-group {
+    margin-top: 30px;  
+    margin-bottom: 30px;
+}
+
+.form input {
+    font-size: 1.5em;
+    font-family: inherit;
+    color: inherit;
+    background-color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #cea135;
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.form textarea  {
+    font-size: 1.5em;
+    font-family: inherit;
+    color: inherit;
+    background-color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: 3px solid #cea135;
+    height: 250px;
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.submit button  {
+    background-color: #cea135;
+    font-size: inherit;
+    padding: 10px 25px;
+    font-family: inherit;
+    font-weight: bold;
+    outline: none;
+    color: #11122b;
+    transition: all 0.3s;
+    border-radius: 5px;
+    border: 1px solid #cea135;
+}
+
+.form-group label   {
+    color: #cea135;
+    font-weight: bold;
+    color: transparent;
+}
+
+.form input:focus   {
+    
+}
+
+.form textarea:focus    {
+    border: 3px solid white;
+}

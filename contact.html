@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>FryZone - About</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -17,27 +17,21 @@
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/homepage.css">
     <link rel="stylesheet" href="styles/bottom.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="left-column">
-                <div class="icon">
-                    <i class="fas fa-phone-volume"></i>
-                </div>
-            <div class="contact-hours-wrapper">
-                <!-- Hours+Phone -->
-                <div class="phone">
-                    555 555 5555
-                </div>
-                <div class="hours">
-                10 AM - Midnight
-                </div>
-            </div>
+<div class="nav-heading">
+
+    <div class="header" style="background-image: url('images/about-us.jpg');"></div>
+    <div class="text">
+
+        <div class="about-heading">
+            <h1>About Us</h1>
         </div>
+
         <div class="nav-wrapper">
-            <div class="banner-image">
-                <img src="images/logos/decamp-fantastic-fries-logo-white.png" alt="Logo">
-            </div>
             <div class="link-wrapper">
         <!-- Link Wrapper -->
             <div>
@@ -57,21 +51,126 @@
                 <a href="contact.html">Contact</a>
             </div>
             </div>
+            </div>
         </div>
-        <div class="right-column">
-            <div class="address-wrapper">
-                <!-- Address -->
-                <a href="contact.html">Any Street <br>
-                ScottsDale, AZ, 35751 </a>
-            </div> <link rel="stylesheet" href="styles/nav.css">
 
-            <div class="contact-icon">
-                <a href="contact.html">
-                    <i class="fas fa-map-marked-alt"></i>
-                </a>
+<div class="spacer300"></div>
+
+<div class="contact-container">
+
+    <div class="info">
+        <img src="images/logos/decamp-fantastic-fries-logo-white.png" alt="Fries Logo Dark">
+
+        <div class="address">
+            <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="text">
+                12345 Fries My Dudes <br>
+                Fry, FI 42069
+            </div>
+        </div>
+
+        <div class="phone">
+            <div class="icon">
+                <i class="fas fa-phone"></i>
+            </div>
+            <div class="text">
+                867-5309
+            </div>
+        </div>
+
+        <div class="hours">
+            <div class="icon">
+                <i class="fas fa-clock"></i>
+            </div>
+            <div class="text">
+                10AM - MIDNIGHT
             </div>
         </div>
     </div>
+    
+    <div class="form">
+        <div class="form-group">
+            <input type="text" id="fullName" placeholder="Your name">
+            <label for="fullName">Your name</label>
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="eMail" placeholder="E-Mail">
+            <label for="eMail">E-Mail</label>
+        </div>
+
+        <div class="form-group">
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <label for="message">Message</label>
+        </div>
+
+        <div class="submit">
+            <button class="submit">Send</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="spacer60"></div>
+
+<div class="bottom-nav">
+
+    <div class="nav-wrapper">
+        <div class="banner-image">
+            <img src="images/logos/decamp-fantastic-fries-logo-white.png" alt="Logo">
+        </div>
+    </div>
+
+    <div class="contact-hours">
+         <!-- Hours+Phone -->
+        <div class="phone">
+            555 555 5555
+         </div>
+        <div class="store-hours">
+             10 AM - Midnight
+        </div>
+    </div>
+
+        <div class="link-wrapper">
+    <!-- Link Wrapper -->
+        <div>
+            <!-- index link -->
+    <a href="index.html">Home</a>
+        </div>
+        <div>
+            <!-- about link -->
+            <a href="about.html">About</a>
+        </div>
+        <div>
+            <!-- menu link -->
+            <a href="menu.html">Menu</a>
+        </div>
+        <div>
+            <!-- contact link -->
+             <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
+    <div class="socials-wrapper">
+        <div class="instagram-icon">
+            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="facebook-icon">
+            <a href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
+        </div>
+        <div class="twitter-icon">
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    
+    <div t class="copyright">
+        &copy; 2020 BirbMadeThis &#124; All rights reserved
+    </div>
+
+</div>
+
 
 </body>
 </html>
